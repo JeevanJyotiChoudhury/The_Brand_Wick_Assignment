@@ -27,13 +27,13 @@ const MainPage = () => {
           {isLogin ? "Login Form" : "Signup Form"}
         </Heading>
       </center>
-      <Flex border="1px solid gray" borderRadius="10px" mb="30px">
+      <Flex borderWidth={1} borderRadius="20px" boxShadow="lg" mb="30px">
         <Button
           w="50%"
           onClick={toggleLogin}
           colorScheme={isLogin ? "blue" : "default"}
-          borderRightRadius="15px"
-          borderLeftRadius="10px"
+          borderRightRadius="20px"
+          borderLeftRadius="20px"
           variant={!isLogin ? "outline" : "solid"}
           border={"none"}
         >
@@ -43,8 +43,8 @@ const MainPage = () => {
           w="50%"
           onClick={toggleSignup}
           colorScheme={!isLogin ? "blue" : "default"}
-          borderLeftRadius="15px"
-          borderRightRadius="10px"
+          borderLeftRadius="20px"
+          borderRightRadius="20px"
           variant={isLogin ? "outline" : "solid"}
           border={"none"}
         >

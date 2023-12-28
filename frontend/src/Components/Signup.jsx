@@ -109,7 +109,7 @@ const SignUp = () => {
         mt={6}
         onClick={handleSignup}
         width="100%"
-        borderRadius="10px"
+        borderRadius="20px"
       >
         Signup
       </Button>

@@ -81,7 +81,7 @@ const Login = () => {
         mt={6}
         onClick={handleLogin}
         width="100%"
-        borderRadius="10px"
+        borderRadius="20px"
       >
         Login
       </Button>
